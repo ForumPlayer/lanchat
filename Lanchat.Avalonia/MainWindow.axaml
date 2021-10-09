@@ -8,23 +8,20 @@
     <TabControl>
         <TabItem Header="Lanchat">
             <Grid ColumnDefinitions="*" RowDefinitions="*,50">
-                <ScrollViewer Grid.Row="0">
-                    <StackPanel>
-
-                    </StackPanel>
+                <ScrollViewer Name="ChatScroll" Grid.Row="0">
+                    <StackPanel Name="Chat" />
                 </ScrollViewer>
-                <TextBox Grid.Row="1" DockPanel.Dock="Bottom" Margin="0 10 0 10" />
+                <TextBox
+                    Name="Input"
+                    Grid.Row="1"
+                    DockPanel.Dock="Bottom"
+                    Margin="0 10 0 10" />
             </Grid>
         </TabItem>
-        <TabItem>
-            <TabItem.Header>
-                <TextBlock>Settings</TextBlock>
-            </TabItem.Header>
+        <TabItem Header="Settings">
             <StackPanel Orientation="Horizontal">
-                <TextBlock Text="Settings"  />
+                <TextBlock Text="Settings" />
             </StackPanel>
         </TabItem>
     </TabControl>
-
-
 </Window>
