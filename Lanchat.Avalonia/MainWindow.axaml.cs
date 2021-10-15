@@ -1,5 +1,3 @@
-using System.Diagnostics;
-using System.Net;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Input;
@@ -32,11 +30,8 @@ namespace Lanchat.Avalonia
             chatScroll = this.FindControl<ScrollViewer>("ChatScroll");
             input.AddHandler(KeyDownEvent, OnInput!, RoutingStrategies.Tunnel);
 
-            Lanchat.Start(x =>
-            {
-                x.Instance.Messaging.MessageReceived += (_, s) => { AddMessage(x.Instance.User.Nickname, s); };
-            });
-            AddMessage("Fingerprint: ", RsaFingerprint.GetMd5(Lanchat.Network.LocalRsa.Rsa.ExportRSAPrivateKey()));
+            Lanchat.Start(x => { _ = new NodeHandlers(x.Instance, this); });
+            AddMessage("Fingerprint", RsaFingerprint.GetMd5(Lanchat.Network.LocalRsa.Rsa.ExportRSAPrivateKey()));
         }
 
         private void OnInput(object sender, KeyEventArgs e)
@@ -50,16 +45,18 @@ namespace Lanchat.Avalonia
             Lanchat.Network.Broadcast.SendMessage(message);
             AddMessage(Lanchat.Config.Nickname, message);
             input.Text = string.Empty;
-            chatScroll.ScrollToEnd();
         }
 
-        private void AddMessage(string nickname, string message)
+        public void AddMessage(string nickname, string message)
         {
             Dispatcher.UIThread.InvokeAsync(() =>
+            {
                 chat.Children.Add(new TextBlock
                 {
                     Text = $"{nickname}: {message}"
-                }));
+                });
+                chatScroll.ScrollToEnd();
+            });
         }
     }
 }
