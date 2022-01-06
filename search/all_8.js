@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['ibroadcast_0',['IBroadcast',['../d4/de5/interface_lanchat_1_1_core_1_1_api_1_1_i_broadcast.html',1,'Lanchat::Core::Api']]],
+  ['icommand_1',['ICommand',['../d8/d07/interface_lanchat_1_1_ipc_1_1_commands_1_1_i_command.html',1,'Lanchat::Ipc::Commands']]],
+  ['iconfig_2',['IConfig',['../d2/dc7/interface_lanchat_1_1_core_1_1_filesystem_1_1_i_config.html',1,'Lanchat::Core::Filesystem']]],
+  ['id_3',['Id',['../db/d48/class_lanchat_1_1_client_core_1_1_node_info.html#a64e9df9fa125dcfc2561cdb04b513519',1,'Lanchat.ClientCore.NodeInfo.Id()'],['../de/dfb/interface_lanchat_1_1_core_1_1_filesystem_1_1_i_node_info.html#a91350dc6514f93d725e60910f3c6635f',1,'Lanchat.Core.Filesystem.INodeInfo.Id()'],['../d5/d94/interface_lanchat_1_1_core_1_1_network_1_1_i_node.html#ab2de1b64a8f08e0cb93c2dbddd1f80c3',1,'Lanchat.Core.Network.INode.Id()'],['../dc/d6c/interface_lanchat_1_1_core_1_1_transport_layer_1_1_i_host.html#a5b65522221db053197ce45f895c57e04',1,'Lanchat.Core.TransportLayer.IHost.Id()']]],
+  ['ifilereceiver_4',['IFileReceiver',['../de/daa/interface_lanchat_1_1_core_1_1_file_transfer_1_1_i_file_receiver.html',1,'Lanchat::Core::FileTransfer']]],
+  ['ifilesender_5',['IFileSender',['../d5/dc9/interface_lanchat_1_1_core_1_1_file_transfer_1_1_i_file_sender.html',1,'Lanchat::Core::FileTransfer']]],
+  ['ihost_6',['IHost',['../dc/d6c/interface_lanchat_1_1_core_1_1_transport_layer_1_1_i_host.html',1,'Lanchat::Core::TransportLayer']]],
+  ['ilocalrsa_7',['ILocalRsa',['../dc/d7d/interface_lanchat_1_1_core_1_1_encryption_1_1_i_local_rsa.html',1,'Lanchat::Core::Encryption']]],
+  ['imessaging_8',['IMessaging',['../d7/d94/interface_lanchat_1_1_core_1_1_chat_1_1_i_messaging.html',1,'Lanchat::Core::Chat']]],
+  ['inode_9',['INode',['../d5/d94/interface_lanchat_1_1_core_1_1_network_1_1_i_node.html',1,'Lanchat::Core::Network']]],
+  ['inodeinfo_10',['INodeInfo',['../de/dfb/interface_lanchat_1_1_core_1_1_filesystem_1_1_i_node_info.html',1,'Lanchat::Core::Filesystem']]],
+  ['inodersa_11',['INodeRsa',['../d5/db7/interface_lanchat_1_1_core_1_1_encryption_1_1_i_node_rsa.html',1,'Lanchat::Core::Encryption']]],
+  ['inodesdatabase_12',['INodesDatabase',['../df/db8/interface_lanchat_1_1_core_1_1_filesystem_1_1_i_nodes_database.html',1,'Lanchat::Core::Filesystem']]],
+  ['invalid_5fargument_13',['invalid_argument',['../d7/dd3/namespace_lanchat_1_1_ipc.html#a692315718456c0c72dedd85cb072974cae55d43eabeefe5a8271b4a3c898bd18f',1,'Lanchat::Ipc']]],
+  ['invalid_5fcommand_14',['invalid_command',['../d7/dd3/namespace_lanchat_1_1_ipc.html#a692315718456c0c72dedd85cb072974ca349b2532edc16f6a522f84ea73fb3686',1,'Lanchat::Ipc']]],
+  ['ioutput_15',['IOutput',['../de/d7f/interface_lanchat_1_1_core_1_1_api_1_1_i_output.html',1,'Lanchat::Core::Api']]],
+  ['ip2p_16',['IP2P',['../dd/d0a/interface_lanchat_1_1_core_1_1_network_1_1_i_p2_p.html',1,'Lanchat::Core::Network']]],
+  ['ipaddress_17',['IpAddress',['../db/d48/class_lanchat_1_1_client_core_1_1_node_info.html#af17dbf99ac2614138c74017f79d7017b',1,'Lanchat.ClientCore.NodeInfo.IpAddress()'],['../de/dfb/interface_lanchat_1_1_core_1_1_filesystem_1_1_i_node_info.html#ad506f615843e8cb85580c124f927c19e',1,'Lanchat.Core.Filesystem.INodeInfo.IpAddress()'],['../dd/d04/class_lanchat_1_1_core_1_1_nodes_discovery_1_1_detected_node.html#ad2480d2098d429948a73fbc4ed5d3fb9',1,'Lanchat.Core.NodesDiscovery.DetectedNode.IpAddress()']]],
+  ['ipcsocket_18',['IpcSocket',['../d4/da5/class_lanchat_1_1_ipc_1_1_program.html#a449528692147b811ece3022cec7833a8',1,'Lanchat.Ipc.Program.IpcSocket()'],['../d6/d45/class_lanchat_1_1_ipc_1_1_ipc_socket.html#a1dabc203d6d62f97f71f276b398d6e6b',1,'Lanchat.Ipc.IpcSocket.IpcSocket()'],['../d6/d45/class_lanchat_1_1_ipc_1_1_ipc_socket.html',1,'Lanchat.Ipc.IpcSocket']]],
+  ['issession_19',['IsSession',['../dc/d6c/interface_lanchat_1_1_core_1_1_transport_layer_1_1_i_host.html#a06c94a8fc44d4340d54c91d983fb6bb7',1,'Lanchat::Core::TransportLayer::IHost']]],
+  ['istorage_20',['IStorage',['../da/d38/interface_lanchat_1_1_core_1_1_file_system_1_1_i_storage.html',1,'Lanchat::Core::FileSystem']]],
+  ['iuser_21',['IUser',['../d6/dea/interface_lanchat_1_1_core_1_1_identity_1_1_i_user.html',1,'Lanchat::Core::Identity']]]
+];

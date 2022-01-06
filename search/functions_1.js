@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['cancelreceive_0',['CancelReceive',['../de/daa/interface_lanchat_1_1_core_1_1_file_transfer_1_1_i_file_receiver.html#a9ee909c0a7479d299ebd255d41514a73',1,'Lanchat::Core::FileTransfer::IFileReceiver']]],
+  ['cancelsend_1',['CancelSend',['../d5/dc9/interface_lanchat_1_1_core_1_1_file_transfer_1_1_i_file_sender.html#ac814b846229201bc6708116ac91d5555',1,'Lanchat::Core::FileTransfer::IFileSender']]],
+  ['catchfilesystemexceptions_2',['CatchFileSystemExceptions',['../dc/d6a/class_lanchat_1_1_client_core_1_1_storage.html#ae15debc501856a32b39b82e220893717',1,'Lanchat.ClientCore.Storage.CatchFileSystemExceptions()'],['../da/d38/interface_lanchat_1_1_core_1_1_file_system_1_1_i_storage.html#adfe1e7b7f0b044c8d24acabe9d692d63',1,'Lanchat.Core.FileSystem.IStorage.CatchFileSystemExceptions()']]],
+  ['close_3',['Close',['../dc/d6c/interface_lanchat_1_1_core_1_1_transport_layer_1_1_i_host.html#aec0bd9fdc833af4220b884aeec2474c3',1,'Lanchat::Core::TransportLayer::IHost']]],
+  ['commandsmanager_4',['CommandsManager',['../d3/dba/class_lanchat_1_1_ipc_1_1_commands_1_1_commands_manager.html#ab3b618896e6cc06e13fa9f3cccc22b3c',1,'Lanchat::Ipc::Commands::CommandsManager']]],
+  ['connect_5',['Connect',['../dd/d0a/interface_lanchat_1_1_core_1_1_network_1_1_i_p2_p.html#a4f9c9736fbd367d89686ab616630be19',1,'Lanchat.Core.Network.IP2P.Connect(IPAddress ipAddress, int? port=null)'],['../dd/d0a/interface_lanchat_1_1_core_1_1_network_1_1_i_p2_p.html#ab55aee2ff55fe7a28d4ddfa38afeb2a3',1,'Lanchat.Core.Network.IP2P.Connect(string hostname, int? port=null)'],['../d6/da4/class_lanchat_1_1_core_1_1_network_1_1_p2_p.html#af0f640357f3a31ab1436c7b973a00741',1,'Lanchat.Core.Network.P2P.Connect(IPAddress ipAddress, int? port=null)'],['../d6/da4/class_lanchat_1_1_core_1_1_network_1_1_p2_p.html#ac0cab70f273fb90ecf75216579e4b48d',1,'Lanchat.Core.Network.P2P.Connect(string hostname, int? port=null)']]],
+  ['createsendrequest_6',['CreateSendRequest',['../d5/dc9/interface_lanchat_1_1_core_1_1_file_transfer_1_1_i_file_sender.html#a3dd5d501f4ebd0d3ee7434316cc98e86',1,'Lanchat::Core::FileTransfer::IFileSender']]]
+];
